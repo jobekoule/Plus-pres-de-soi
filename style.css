@@ -1,3 +1,31 @@
+@font-face {
+    font-family: "Kalam";
+    src: url("fonts/Kalam/Kalam-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Josefin";
+    src: url('fonts/Josefin_Slab/JosefinSlab-Regular.ttf') format("truetype");
+}
+@font-face {
+    font-family : "Open";
+    src: url('fonts/Open_Sans_Condensed/OpenSans-CondLight.ttf') format('truetype');
+}
+
+
+#logo{
+	font-family: 'Kalam', cursive;
+}
+
+h1{
+	font-family: 'Josefin', serif;
+	font-size: 20px;
+}
+
+p{
+	font-family: 'Open', sans-serif;
+	font-size: 20px;
+}
+
 /* style des descriptifs des pages dietetique et magnetique*/
 #descriptif{
 
