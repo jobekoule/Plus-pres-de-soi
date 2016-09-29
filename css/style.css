@@ -1,14 +1,14 @@
 @font-face {
     font-family: "Kalam";
-    src: url("fonts/Kalam/Kalam-Regular.ttf") format("truetype");
+    src: url("../fonts/Kalam/Kalam-Regular.ttf") format("truetype");
 }
 @font-face {
     font-family: "Josefin";
-    src: url('fonts/Josefin_Slab/JosefinSlab-Regular.ttf') format("truetype");
+    src: url('../fonts/Josefin_Slab/JosefinSlab-Regular.ttf') format("truetype");
 }
 @font-face {
     font-family : "Open";
-    src: url('fonts/Open_Sans_Condensed/OpenSans-CondLight.ttf') format('truetype');
+    src: url('../fonts/Open_Sans_Condensed/OpenSans-CondLight.ttf') format('truetype');
 }
 
 
@@ -30,3 +30,11 @@ p{
 #descriptif{
 
 }
+li{
+        display: inline;
+        background-color: black;
+
+    }
+a{
+        color: white;
+    }

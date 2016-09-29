@@ -2,15 +2,45 @@
 <html lang="fr">
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<title>Diététique</title>
 
-	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="css/style.css"/>
+
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+	<script>
+    // fonction gérant les onglets
+    $( function() {
+    	$( "#onglet" ).tabs({
+    		collapsible: true
+    	});
+    } );
+
+</script>
+
 </head>
 <body>
 
 	<div class="descriptif">
 		<p>La <strong>diététique</strong> est la science de l'alimentation équilibrée. Elle permet de retrouver une alimentation équilibrée afin de trouver ou retrouver votre santé.  Je vous aide à équilibrer vos repas, à répondre à vos besoins en quantité et en qualité, à retrouver le plaisir dans votre alimentation, tout en m’adaptant à vos goûts et à votre rythme de vie. Je ne conseille pas de restriction alimentaire avec la tête comme ce que préconisent  quasiment tous les régimes. L’objectif est de retrouver ses propres repères de faim et de satiété pour répondre à ses besoins On travaille sur le comportement alimentaire pour que les effets agissent sur du long terme. On abordera vos croyances et représentations, votre histoire, vos habitudes…</p>
 		
+	</div>
+
+	<div id="Onglet">
+		<ul>
+			<li><a href="#recette">Recette coup de coeur</a></li>
+			<li><a href="#conseil">Conseil du jour</a></li>
+		</ul>
+		<div id="recette">
+			<p><strong>Courgettes rondes farcies au fromage de chèvre et champignon</strong></p>
+			<p>Pendant ce temps, lavez soigneusement les champignons de Paris, puis émincez-les s’ils sont gros. Pelez et émincez l’oignon et les gousses d’ail. Faites chauffer l’huile d’olive dans une sauteuse, ajoutez ail, oignon et champignons de Paris et faites sauter 10 min à feu moyen.</p>
+		</div>
+		<div id="conseil">
+			<p><strong>La biotech devra sans doute passer bientôt par la case augmentation de capital. En manque de catalyseurs à court terme, le titre garde néanmoins du potentiel.</strong></p>
+			<p>Genfit a publié ce mardi ses résultats semestriels. La biotech, dont la perte opérationnelle a atteint 12,8 millions d’euros sur la période, disposait, fin juin de 94 millions d’euros de trésorerie, contre 103 millions fin mars. Le démarrage de «Resolve-it», un essai clinique final (phase III) évaluant Elafibranor, le médicament en développement dans la stéatose hépatique non alcoolique (Nash), explique l’accélération des dépenses.</p>
+		</div>
 	</div>
 
 </body>
