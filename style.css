@@ -1,0 +1,31 @@
+.navbar-nav  li a:hover {
+  color: #FF530D !important;
+}
+
+.navbar-brand{
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  color: #38382E;
+
+}
+.container-fluid {
+  background-image: url(images/flower.jpg);
+  background-size: cover;
+  height: 700px;
+}
+.navbar {
+  background-color: black;
+  border: none;
+  opacity: 0.5;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+.navbar-custom {
+
+}
