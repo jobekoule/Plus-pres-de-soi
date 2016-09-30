@@ -1,0 +1,30 @@
+	.rectangle
+	{
+			width: 100%;
+			
+			
+	}
+
+	.square-small
+	{
+		display: block;
+		width: 10%;
+		left: -80%;
+		position: absolute;
+		background-color: red;
+				display: inline-block;
+
+
+	}
+	.square-small2
+	{
+		display: block;
+		width: 10%;
+		position: absolute;
+		right: 20%;
+
+
+	}
+	.img-responsive_perso{
+			width:550%;
+	}
