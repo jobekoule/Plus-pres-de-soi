@@ -1,31 +1,173 @@
-.navbar-nav  li a:hover {
-  color: #FF530D !important;
+@font-face {
+  font-family: 'Montserrat',Verdana
 }
 
+a {
+  color: #333;
+}
+a:hover {
+  color: #A97052;
+}
+html,body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 80%;
+  margin: auto;
+}
 .navbar-brand{
-  font-family: 'Dancing Script', cursive;
-  font-size: 30px;
-  color: #38382E;
 
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  color: #38382E;
 }
-.container-fluid {
+
+body#pg-home .container-fluid {
   background-image: url(images/flower.jpg);
   background-size: cover;
-  height: 700px;
+  background-repeat: no-repeat;
+  height: 800px;
+  margin: 0;
+  padding: 0;
 }
+
+body#pg-magnetisme .container-fluid {
+  background-image: url(images/cascade2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+
+body#pg-magnetisme.navbar{
+  background-color: rgba(46, 35, 39, 0.7);
+}
+body#pg-dietetique .container-fluid {
+  background-image: url(images/tomatoes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+body#pg-dietetique.navbar{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+body#pg-atelier .container-fluid {
+  background-image: url(images/hyacinthe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+body#pg-atelier.navbar{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+body#pg-apropos .container-fluid {
+  background-image: url(images/heart.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+body#pg-apropos.navbar{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+body#pg-contact .container-fluid {
+  background-image: url(images/coeur.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+body#pg-contact.navbar{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
 .navbar {
-  background-color: black;
+
+  background-color: rgba(0, 0, 0, 0.7);
   border: none;
-  opacity: 0.5;
-  padding-top: 15px;
+  padding-top: 35px;
   padding-bottom: 15px;
+  padding-right: 20px;
   border: 0;
   border-radius: 0;
   margin-bottom: 0;
   font-size: 15px;
-  letter-spacing: 3px;
+  letter-spacing: 6px;
+  font-weight: bold;
+  width: 80%;
+  margin: auto;
+  height: 100px;
+ }
+
+body#pg-dietetique .navbar{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.container-fluid2 {
+  
+  font-weight: bold;
+  height: 300px;
+  font-size: 14px;
+  letter-spacing: 03px;
+  position: absolute;
+  top: 23%;
+  left: 52%;
+  border: 0;
+  }
+
+.inner-banner {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  border: 0;
+  font-size: 3.8em;
+  color: #949C94;
+  font-weight: italic;
+
+
+}
+.titre-pitch {
+  letter-spacing: 6px;
+  font-style: italic;
+  font-size: 52px;
+  line-height: 100%;
+  color: #612A05;
+
+
+}
+ 
+.pitch-final {
+  position: relative;
+  top: 800px;
+  text-align: center;
+  height: 180px;
+  background-color: #A97052;
+  width: 80%;
+  margin: auto;
 }
 
-.navbar-custom {
+h4 {
+  display: block;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding-top: 55px;
 
+}
+footer {
+  background-color: #EF9B2B;
+  font-size: 1.2em;
+  position: relative;
+  top: 800px;
+  color: black;
+  font-weight: bold;
+  width: 80%;
+  margin: auto;
 }
