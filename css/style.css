@@ -30,6 +30,16 @@ p{
 #descriptif{
 
 }
+#recette{
+
+}
+#conseil{
+    width: 70%;
+    margin: auto;
+    height: 400px;
+    background-image: url('img/conseil.jpg'); 
+    overflow: auto;
+}
 li{
         display: inline;
         background-color: black;
