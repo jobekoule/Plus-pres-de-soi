@@ -133,7 +133,7 @@ section {
   font-size: 14px;
   letter-spacing: 03px;
   position: absolute;
-  top: 87%;
+  top: 83%;
   left: 52%;
   border: 0;
   }
@@ -144,7 +144,7 @@ section {
   left: 50%;
   border: 0;
   font-size: 3.8em;
-  color: #949C94;
+  color: black;
   font-weight: italic;
 
 
@@ -159,30 +159,33 @@ section {
 
 }
 img.img1 {
-   width: 400px;
+   width: 340px;
     position: relative;
-    right: 600px;
-    padding-top: 30px;
+    right: 640px;
+    padding-top: 120px;
    
 }
 
 .bio {
-   
    position: relative;
-   bottom: 20px;
+   bottom: 15px;
    right: 300px;
    text-align: justify;
    height: 600px;
    width: 900px;
-   padding-top: 30px;
    
-
 }
-
-div h1 {
-    font-size: 30px;
+.bio p {
+    font-size: 16px;
+    padding-top: 5px;
+    text-align: center;
 }
- 
+h1.titre1 {
+    font-size: 60px;
+    padding-top: 25px;
+    padding-left: 45px;
+
+ }
 .pitch-final {
   position: relative;
   top: 800px;
@@ -200,6 +203,7 @@ h4 {
   padding-top: 55px;
 
 }
+
 footer {
   background-color: #EF9B2B;
   font-size: 1.2em;
@@ -211,3 +215,37 @@ footer {
   margin: auto;
 }
 
+
+#scroll {
+  width: 600px;
+  height: 510px;
+  overflow: auto;
+  position: relative;
+  top: 08px;
+  left: 50px;
+  scrollbar-face-color:#999999;
+  scrollbar-arrow-color: #FFFFFF;
+  scrollbar-track-color: #FFFFFF;
+  scrollbar-highlight-color: #999999;
+  scrollbar-darkshadow-color: #FFFFFF;
+  scrollbar-shadow-color: #999999;
+  scrollbar-3dlight-color: #999999;
+}
+div.btn-group {
+    position: relative;
+    right: 540px;
+    width: 120px;
+    bottom: 60px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+blockquote {
+    color: blue;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    
+    font-size: 30px;
+
+}
