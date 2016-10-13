@@ -54,7 +54,7 @@ header {
   width: 80%;
   margin: auto;
 }
-/** -----------modif -------------------------**/
+
 .navbar-default .navbar-nav > li > a
 {
   color:#FFF;
@@ -68,7 +68,7 @@ header {
   background-attachment: fixed;
 
 }
-/**-------------------------------------------**/
+
 body#pg-magnetisme .container-fluid {
   background-image: url(../img/harmony.jpg);
   background-size: cover;
