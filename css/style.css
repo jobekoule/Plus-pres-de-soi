@@ -60,7 +60,7 @@ header {
   color:#FFF;
 }
 #pg-home > header > .container-fluid {
-  background-image: url(../images/flower.jpg);
+  background-image: url(../img/flower.jpg);
   background-repeat: no-repeat;
   height: 500px;
   background-position: center;
@@ -117,8 +117,8 @@ body#pg-apropos .container-fluid {
   background-image: url(../img/butterfly.jpg);
   background-size: cover ;
   background-repeat: no-repeat;
-  height: 600px;
- 
+  height: 380px;
+  background-position: center;
   min-height: 100%;
 }
 body#pg-apropos.navbar{
