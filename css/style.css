@@ -54,70 +54,82 @@ header {
   width: 80%;
   margin: auto;
 }
+
 #pg-home .container-fluid {
-  background-image: url(../images/flower.jpg);
+  background-image: url(../img/flower.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 800px;
   margin: 0;
   padding: 0;
+  min-height: 100%;
+
 }
 
 body#pg-magnetisme .container-fluid {
-  background-image: url(../images/harmony.jpg);
+  background-image: url(../img/harmony.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 380px;
   margin: auto;
   padding: 0;
+  min-height: 100%;
 }
 
 body#pg-magnetisme.navbar{
   background-color: rgba(46, 35, 39, 0.7);
 }
+
 body#pg-dietetique .container-fluid {
-  background-image: url(../images/tomatoes.jpg);
+  background-image: url(../img/vegetables.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 500px;
   margin: 0;
   padding: 0;
+  min-height: 100%
 }
+
 body#pg-dietetique.navbar{
   background-color: rgba(0, 0, 0, 0.7);
 }
+
 body#pg-atelier .container-fluid {
-  background-image: url(../images/hyacinthe.jpg);
+  background-image: url(../img/tulipe.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
   margin: 0;
   padding: 0;
+  min-height: 100%;
 }
 body#pg-atelier.navbar{
   background-color: rgba(0, 0, 0, 0.7);
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
 }
 
 body#pg-apropos .container-fluid {
-  background-image: url(../images/butterfly.jpg);
+  background-image: url(../img/butterfly.jpg);
   background-size: cover ;
   background-repeat: no-repeat;
   height: 600px;
-  margin: 0;
-  padding: 0;
-
+ 
+  min-height: 100%;
 }
 body#pg-apropos.navbar{
   background-color: rgba(0, 0, 0, 0.7);
 
 }
 body#pg-contact .container-fluid {
-  background-image: url(../images/tulipe.jpg);
+  background-image: url(../img/tulipe.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
   margin: 0;
   padding: 0;
+min-height: 100%;
 }
 body#pg-contact.navbar{
   background-color: rgba(0, 0, 0, 0.7);
@@ -162,7 +174,7 @@ img.img1 {
    width: 340px;
     position: relative;
     right: 640px;
-    padding-top: 120px;
+    padding-top: 40px;
    
 }
 
@@ -186,9 +198,16 @@ h1.titre1 {
     padding-left: 45px;
 
  }
+ h1.titre2 {
+    font-size: 25px;
+ position: relative;
+ right: 600px;
+ top: 20px;
+
+ }
 .pitch-final {
   position: relative;
-  top: 800px;
+  bottom: 0px;
   text-align: center;
   height: 180px;
   background-color: #A97052;
@@ -208,13 +227,27 @@ footer {
   background-color: #EF9B2B;
   font-size: 1.2em;
   position: relative;
-  top: 800px;
-  color: black;
+  bottom: 0;
   font-weight: bold;
   width: 80%;
   margin: auto;
+  padding-top: 50px;
+  height: 300px; 
+}
+footer a {
+    color: #663C26;
+    padding-bottom: 80px;
+}
+.footer-bottom {
+    color: #663C26;
+    padding-left: 120px;
+    padding-bottom: 70px;
 }
 
+.customtitle1 {
+    color: #663C26;
+    font-weight: bold;
+}
 
 #scroll {
   width: 600px;
@@ -241,11 +274,22 @@ div.btn-group {
 }
 
 blockquote {
-    color: blue;
-    position: absolute;
-    top: 42%;
-    left: 50%;
     
-    font-size: 30px;
-
+    position: relative;
+    top: 520px;
+    left: 80px;
+    font-size: 22px;
+    height: 180px;
+    background-color: #A97052;
+    width: 80%;
+    text-align: center;
+    color: #333;
+    padding-top: 40px;
+    margin-left: 50px;
+}
+.formation {
+   
+    position: relative;
+   top: 700px;
+    height: 200px;
 }
