@@ -16,7 +16,7 @@
 	font-family: 'Kalam', cursive;
 }
 
-h1{
+h1, h4{
 	font-family: 'Josefin', serif;
 	font-size: 20px;
 }
@@ -54,12 +54,13 @@ header {
   width: 80%;
   margin: auto;
 }
-/** -----------modif -------------------------**/
+
 .navbar-default .navbar-nav > li > a
 {
   color:#FFF;
+
 }
-#pg-home > header > .container-fluid {
+header#pg-home {
   background-image: url(../img/flower.jpg);
   background-repeat: no-repeat;
   height: 500px;
@@ -68,8 +69,8 @@ header {
   background-attachment: fixed;
 
 }
-/**-------------------------------------------**/
-body#pg-magnetisme .container-fluid {
+
+header#pg-magnetisme {
   background-image: url(../img/harmony.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -83,12 +84,12 @@ body#pg-magnetisme.navbar{
   background-color: rgba(46, 35, 39, 0.7);
 }
 
-body#pg-dietetique .container-fluid {
+header#pg-dietetique {
   background-image: url(../img/vegetables.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
-  margin: 0;
+  margin: auto;
   padding: 0;
   min-height: 100%
 }
@@ -97,12 +98,12 @@ body#pg-dietetique.navbar{
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-body#pg-atelier .container-fluid {
-  background-image: url(../img/tulipe.jpg);
+header#pg-atelier {
+  background-image: url(../img/hyacinthe.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
-  margin: 0;
+  height: 450px;
+  margin: auto;
   padding: 0;
   min-height: 100%;
 }
@@ -113,26 +114,28 @@ body#pg-atelier.navbar{
   min-height: 100%;
 }
 
-body#pg-apropos .container-fluid {
+header#pg-apropos {
   background-image: url(../img/butterfly.jpg);
   background-size: cover ;
   background-repeat: no-repeat;
-  height: 380px;
+  margin: auto;
+  padding: 0;
+  height: 400px;
   background-position: center;
   min-height: 100%;
 }
-body#pg-apropos.navbar{
+/*body#pg-apropos.navbar{
   background-color: rgba(0, 0, 0, 0.7);
 
-}
-body#pg-contact .container-fluid {
+}*/
+header#pg-contact{
   background-image: url(../img/tulipe.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
-  margin: 0;
+  height: 380px;
+  margin: auto;
   padding: 0;
-min-height: 100%;
+  min-height: 100%;
 }
 body#pg-contact.navbar{
   background-color: rgba(0, 0, 0, 0.7);
@@ -155,13 +158,26 @@ body#pg-dietetique .navbar{
 
 .inner-banner {
   position: absolute;
-  top: 42%;
-  left: 50%;
+  top: 28%;
+  left: 16%;
   border: 0;
-  font-size: 3.8em;
+  font-size: 35px;
   color: black;
   font-weight: italic;
-
+}
+.inner-banner p {
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 60px;
+  right: 20px;
+}
+.title-banner1 {
+  position: relative;
+  bottom: 40px;
+  left: 400px;
+  font-size: 32px;
+  
 
 }
 .titre-pitch {
@@ -177,14 +193,14 @@ img.img1 {
    width: 340px;
     position: relative;
     right: 640px;
-    padding-top: 40px;
+    padding-top: 10px;
    
 }
 
 .bio {
    position: relative;
    bottom: 15px;
-   right: 300px;
+   right: 200px;
    text-align: justify;
    height: 600px;
    width: 900px;
@@ -197,25 +213,25 @@ img.img1 {
 }
 h1.titre1 {
     font-size: 60px;
-    padding-top: 25px;
+    padding-top: -200px;
     padding-left: 45px;
 
  }
  h1.titre2 {
     font-size: 25px;
- position: relative;
- right: 600px;
- top: 20px;
+    position: relative;
+    right: 600px;
+     top: 20px;
 
  }
 .pitch-final {
-  position: relative;
-  bottom: 0px;
-  text-align: center;
-  height: 180px;
-  background-color: #A97052;
-  width: 80%;
-  margin: auto;
+   position: relative;
+  
+   text-align: center;
+   height: 180px;
+   background-color: #A97052;
+   width: 80%;
+   margin: auto;
 }
 
 h4 {
@@ -233,23 +249,31 @@ footer {
   bottom: 0;
   font-weight: bold;
   width: 80%;
+  height: 250px;
   margin: auto;
   padding-top: 50px;
-  height: 300px; 
+  
+ 
 }
+
+ul {
+  list-style-type: none;
+}
+
 footer a {
-    color: #663C26;
-    padding-bottom: 80px;
+  color: #663C26;
+  padding-bottom: 80px;
 }
 .footer-bottom {
-    color: #663C26;
-    padding-left: 120px;
-    padding-bottom: 70px;
+  color: #663C26;
+  padding-right: 100px;
+  padding-bottom: 70px;
 }
 
 .customtitle1 {
-    color: #663C26;
-    font-weight: bold;
+  color: #663C26;
+  font-weight: bold;
+  
 }
 
 #scroll {
@@ -268,31 +292,43 @@ footer a {
   scrollbar-3dlight-color: #999999;
 }
 div.btn-group {
-    position: relative;
-    right: 540px;
-    width: 120px;
-    bottom: 60px;
-    background-color: blue;
-    border-radius: 10px;
+  position: relative;
+  right: 540px;
+  width: 120px;
+  bottom: 60px;
+  background-color: blue;
+  border-radius: 10px;
 }
 
 blockquote {
     
-    position: relative;
-    top: 520px;
-    left: 80px;
-    font-size: 22px;
-    height: 180px;
-    background-color: #A97052;
-    width: 80%;
-    text-align: center;
-    color: #333;
-    padding-top: 40px;
-    margin-left: 50px;
+  position: relative;
+  top: 670px;
+  left: 80px;
+  font-size: 22px;
+  height: 180px;
+  background-color: #A97052;
+  width: 80%;
+  text-align: center;
+  color: #333;
+  padding-top: 40px;
+  margin-left: 50px;
 }
 .formation {
    
-    position: relative;
-   top: 700px;
-    height: 200px;
+  position: relative;
+  top: 700px;
+  height: 200px;
+}
+article.row.formation {
+  border: solid 1px black;
+  height: 500px;
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+}
+section#about {
+  display: inline-block;
+ top: 10px;
+ margin-top: 400px;
 }
