@@ -1,14 +1,14 @@
 @font-face {
-    font-family: "Kalam";
-    src: url("../fonts/Kalam/Kalam-Regular.ttf") format("truetype");
+  font-family: "Kalam";
+  src: url("../fonts/Kalam/Kalam-Regular.ttf") format("truetype");
 }
 @font-face {
-    font-family: "Josefin";
-    src: url('../fonts/Josefin_Slab/JosefinSlab-Regular.ttf') format("truetype");
+  font-family: "Josefin";
+  src: url('../fonts/Josefin_Slab/JosefinSlab-Regular.ttf') format("truetype");
 }
 @font-face {
-    font-family : "Open";
-    src: url('../fonts/Open_Sans_Condensed/OpenSans-CondLight.ttf') format('truetype');
+  font-family : "Open";
+  src: url('../fonts/Open_Sans_Condensed/OpenSans-CondLight.ttf') format('truetype');
 }
 
 
@@ -59,8 +59,8 @@ p{
   font-size: 4em;
 }
 .accrocheContact {
-   text-align: center;
-   background-color: #A97052;
+ text-align: center;
+ background-color: #A97052;
 }
 
 #pg-home, #pg-magnetisme, #pg-dietetique, #pg-atelier, #pg-apropos, #pg-contact {
@@ -96,186 +96,25 @@ p{
   background-image: url(../img/tulipe.jpg);
   height: 300px;
 }
-
-/*
-
-#about {
- 
-  font-weight: bold;
-  height: 300px;
-  font-size: 14px;
-  letter-spacing: 03px;
-  position: absolute;
-  top: 83%;
-  left: 52%;
-  border: 0;
-  }
-
-.inner-banner {
-  position: absolute;
-  top: 28%;
-  left: 16%;
-  border: 0;
-  font-size: 35px;
-  color: black;
-  font-weight: italic;
+footer > ul > li
+{
+  list-style: none;
+  margin-right: 1%;
+  display: inline;
 }
-.inner-banner p {
-  font-size: 20px;
-  text-align: center;
-  position: relative;
-  bottom: 60px;
-  right: 20px;
-}
-.title-banner1 {
-  position: relative;
-  bottom: 40px;
-  left: 400px;
-  font-size: 32px;
+footer > ul > li > a, footer > ul > li > a:hover, footer > ul > li
+{
 
+  color:#000;
 }
-.titre-pitch {
-  letter-spacing: 6px;
-  font-style: italic;
-  font-size: 52px;
-  line-height: 100%;
-  color: #612A05;
-
-
-}
-img.img1 {
-   width: 340px;
-    position: relative;
-    right: 640px;
-    padding-top: 10px;
-   
+footer > ul 
+{
+  text-align: center !important; 
 }
 
-.bio {
-   position: relative;
-   bottom: 15px;
-   right: 200px;
-   text-align: justify;
-   height: 600px;
-   width: 900px;
-   
-}
-.bio p {
-    font-size: 16px;
-    padding-top: 5px;
-    text-align: center;
-}
-h1.titre1 {
-    font-size: 60px;
-    padding-top: -200px;
-    padding-left: 45px;
-
- }
- h1.titre2 {
-    font-size: 25px;
-    position: relative;
-    right: 600px;
-     top: 20px;
-
- }
-
-
-h4 {
-  display: block;
-  font-size: 1.4em;
-  font-weight: bold;
-  padding-top: 55px;
-
-}
-
-footer {
+.footer
+{
+  border-top: 2px solid black;
+  padding: 20px;
   background-color: #EF9B2B;
-  font-size: 1.2em;
-  position: relative;
-  bottom: 0;
-  font-weight: bold;
-  width: 80%;
-  height: 250px;
-  margin: auto;
-  padding-top: 50px;
-  
- 
 }
-
-ul {
-  list-style-type: none;
-}
-
-footer a {
-  color: #663C26;
-  padding-bottom: 80px;
-}
-.footer-bottom {
-  color: #663C26;
-  padding-right: 100px;
-  padding-bottom: 70px;
-}
-
-.customtitle1 {
-  color: #663C26;
-  font-weight: bold;
-  
-}
-
-#scroll {
-  width: 600px;
-  height: 510px;
-  overflow: auto;
-  position: relative;
-  top: 08px;
-  left: 50px;
-  scrollbar-face-color:#999999;
-  scrollbar-arrow-color: #FFFFFF;
-  scrollbar-track-color: #FFFFFF;
-  scrollbar-highlight-color: #999999;
-  scrollbar-darkshadow-color: #FFFFFF;
-  scrollbar-shadow-color: #999999;
-  scrollbar-3dlight-color: #999999;
-}
-div.btn-group {
-  position: relative;
-  right: 540px;
-  width: 120px;
-  bottom: 60px;
-  background-color: blue;
-  border-radius: 10px;
-}
-
-blockquote {
-    
-  position: relative;
-  top: 670px;
-  left: 80px;
-  font-size: 22px;
-  height: 180px;
-  background-color: #A97052;
-  width: 80%;
-  text-align: center;
-  color: #333;
-  padding-top: 40px;
-  margin-left: 50px;
-}
-.formation {
-   
-  position: relative;
-  top: 700px;
-  height: 200px;
-}
-article.row.formation {
-  border: solid 1px black;
-  height: 500px;
-  width: 60%;
-  margin: auto;
-  font-size: 18px;
-}
-section#about {
-  display: inline-block;
- top: 10px;
- margin-top: 400px;
-}
-*/
