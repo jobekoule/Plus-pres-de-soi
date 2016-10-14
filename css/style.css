@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "Kalam";
+  src: url("../fonts/Kalam/Kalam-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Josefin";
+  src: url('../fonts/Josefin_Slab/JosefinSlab-Regular.ttf') format("truetype");
+}
+@font-face {
+  font-family : "Open";
+  src: url('../fonts/Open_Sans_Condensed/OpenSans-CondLight.ttf') format('truetype');
+}
+
+
+#logo{
+	font-family: 'Kalam', cursive;
+}
+
+h1, h4{
+	font-family: 'Josefin', serif;
+	font-size: 20px;
+}
+
+p{
+	font-family: 'Open', sans-serif;
+	font-size: 20px;
+}
+
+.navbar-brand{
+  font-family: 'kalam', cursive;
+  font-size: 40px;
+  color: #38382E;
+
+}
+
+.navbar {
+  background-color: black;
+  border: none;
+  opacity: 0.4;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+  color:#FFF;
+
+}
+
+#homePhraseAccroche{
+  margin-top:200px;
+  font-size: 4em;
+}
+.accrocheContact {
+ text-align: center;
+ background-color: #A97052;
+}
+
+#pg-home, #pg-magnetisme, #pg-dietetique, #pg-atelier, #pg-apropos, #pg-contact {
+  background-image: url(../img/flower.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#pg-magnetisme {
+  background-image: url(../img/harmony.jpg);
+  height: 300px;
+}
+
+#pg-dietetique {
+  background-image: url(../img/vegetables.jpg);
+  height: 300px;
+}
+
+#pg-atelier {
+  background-image: url(../img/hyacinthe.jpg);
+  height: 300px;
+}
+
+#pg-apropos {
+  background-image: url(../img/butterfly.jpg);
+  height: 300px;
+}
+
+#pg-contact {
+  background-image: url(../img/tulipe.jpg);
+  height: 300px;
+}
+footer > ul > li
+{
+  list-style: none;
+  margin-right: 1%;
+  display: inline;
+}
+footer > ul > li > a, footer > ul > li > a:hover, footer > ul > li
+{
+
+  color:#000;
+}
+footer > ul 
+{
+  text-align: center !important; 
+}
+
+.footer
+{
+  border-top: 2px solid black;
+  padding: 20px;
+  background-color: #EF9B2B;
+}
