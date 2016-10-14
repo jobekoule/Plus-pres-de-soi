@@ -26,11 +26,6 @@ p{
 	font-size: 20px;
 }
 
-header {
-  width: 80%;
-  margin: auto;
-}
-
 .navbar-brand{
   font-family: 'kalam', cursive;
   font-size: 40px;
@@ -51,8 +46,6 @@ header {
   font-size: 15px;
   letter-spacing: 5px;
   font-weight: bold;
-  width: 80%;
-  margin: auto;
 }
 
 .navbar-default .navbar-nav > li > a
@@ -60,90 +53,52 @@ header {
   color:#FFF;
 
 }
-header#pg-home {
+
+#homePhraseAccroche{
+  margin-top:200px;
+  font-size: 4em;
+}
+.accrocheContact {
+   text-align: center;
+   background-color: #A97052;
+}
+
+#pg-home, #pg-magnetisme, #pg-dietetique, #pg-atelier, #pg-apropos, #pg-contact {
   background-image: url(../img/flower.jpg);
   background-repeat: no-repeat;
   height: 500px;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-
 }
 
-header#pg-magnetisme {
+#pg-magnetisme {
   background-image: url(../img/harmony.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 380px;
-  margin: auto;
-  padding: 0;
-  min-height: 100%;
+  height: 300px;
 }
 
-body#pg-magnetisme.navbar{
-  background-color: rgba(46, 35, 39, 0.7);
-}
-
-header#pg-dietetique {
+#pg-dietetique {
   background-image: url(../img/vegetables.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 500px;
-  margin: auto;
-  padding: 0;
-  min-height: 100%
+  height: 300px;
 }
 
-body#pg-dietetique.navbar{
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-header#pg-atelier {
+#pg-atelier {
   background-image: url(../img/hyacinthe.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 450px;
-  margin: auto;
-  padding: 0;
-  min-height: 100%;
-}
-body#pg-atelier.navbar{
-  background-color: rgba(0, 0, 0, 0.7);
-  margin: 0;
-  padding: 0;
-  min-height: 100%;
+  height: 300px;
 }
 
-header#pg-apropos {
+#pg-apropos {
   background-image: url(../img/butterfly.jpg);
-  background-size: cover ;
-  background-repeat: no-repeat;
-  margin: auto;
-  padding: 0;
-  height: 400px;
-  background-position: center;
-  min-height: 100%;
+  height: 300px;
 }
-/*body#pg-apropos.navbar{
-  background-color: rgba(0, 0, 0, 0.7);
 
-}*/
-header#pg-contact{
+#pg-contact {
   background-image: url(../img/tulipe.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 380px;
-  margin: auto;
-  padding: 0;
-  min-height: 100%;
-}
-body#pg-contact.navbar{
-  background-color: rgba(0, 0, 0, 0.7);
+  height: 300px;
 }
 
-body#pg-dietetique .navbar{
-  background-color: rgba(0, 0, 0, 0.7);
-}
+/*
+
 #about {
  
   font-weight: bold;
@@ -177,7 +132,6 @@ body#pg-dietetique .navbar{
   bottom: 40px;
   left: 400px;
   font-size: 32px;
-  
 
 }
 .titre-pitch {
@@ -224,15 +178,7 @@ h1.titre1 {
      top: 20px;
 
  }
-.pitch-final {
-   position: relative;
-  
-   text-align: center;
-   height: 180px;
-   background-color: #A97052;
-   width: 80%;
-   margin: auto;
-}
+
 
 h4 {
   display: block;
@@ -332,3 +278,4 @@ section#about {
  top: 10px;
  margin-top: 400px;
 }
+*/
