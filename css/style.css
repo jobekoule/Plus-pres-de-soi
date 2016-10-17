@@ -107,9 +107,9 @@ footer > ul > li > a, footer > ul > li > a:hover, footer > ul > li
 
   color:#000;
 }
-footer > ul 
+footer > ul
 {
-  text-align: center !important; 
+  text-align: center !important;
 }
 
 .footer
@@ -118,3 +118,35 @@ footer > ul
   padding: 20px;
   background-color: #EF9B2B;
 }
+
+/* Page Atelier */
+
+.hfixed {
+	height: 300px;
+}
+
+#icontent {
+	background-color:orange;
+}
+
+.atelierBandeTransition{
+	height: 80px;
+	text-align: center;
+	background-color: orange;
+	padding-top: 30px;
+}
+
+.caption {
+	padding:50px
+}
+
+/* Home Bloc News*/
+
+#homeBlocNews {
+	width:90%;
+	margin: auto;
+	height:400px;
+	background-color:white;
+	padding: auto;
+	overflow: scroll;
+	}
