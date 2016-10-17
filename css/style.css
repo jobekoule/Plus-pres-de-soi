@@ -117,6 +117,39 @@ footer > ul
   padding: 20px;
   background-color: #EF9B2B;
 }
+
+/* Page Atelier */
+
+.hfixed {
+	height: 300px;
+}
+
+#icontent {
+	background-color:orange;
+}
+
+.atelierBandeTransition{
+	height: 80px;
+	text-align: center;
+	background-color: orange;
+	padding-top: 30px;
+}
+
+.caption {
+	padding:50px
+}
+
+/* Home Bloc News*/
+
+#homeBlocNews {
+	width:90%;
+	margin: auto;
+	height:400px;
+	background-color:white;
+	padding: auto;
+	overflow: scroll;
+}
+
 /* dietetique - recette et conseil*/
 #dietTabs ul{
     list-style-type: none;
