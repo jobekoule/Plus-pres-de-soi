@@ -149,4 +149,56 @@ footer > ul
 	background-color:white;
 	padding: auto;
 	overflow: scroll;
-	}
+}
+
+/* dietetique - recette et conseil*/
+#dietTabs ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100px;
+}
+#dietTabs li{
+    float: left;
+    width: 50%;
+    color: white;
+}
+#dietTabs li a{
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-family: 'Josefin', serif;
+    font-size: 2em;
+    text-align: center;
+    padding: auto;
+}
+#dietTabs li a:hover{
+    text-decoration: underline;
+}
+#ongletRecette, #ongletConseil{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background-color: #A97052;
+}
+#dietTexteRecette, #dietTexteConseil{
+    padding: 1em;
+}
+#dietTexteRecette h2, #dietTexteConseil h2{
+    font-style: bold;
+}
+#dietTexteRecette img{
+    float: right;
+    width: 40%;
+}
+#dietTexteRecette ul, #dietTexteConseil ul{
+    width: 90%;
+    margin: auto;
+    display: inline;
+}
+#dietTexteRecette li, #dietTexteConseil li{
+    margin-bottom: .5em;
+    color: black;
+    float: none;
+}
