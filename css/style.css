@@ -1,42 +1,40 @@
 @font-face {
-  font-family: "Kalam";
+  font-family: "logo";
   src: url("../fonts/Kalam/Kalam-Regular.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Josefin";
+  font-family: "titre";
   src: url('../fonts/Josefin_Slab/JosefinSlab-Regular.ttf') format("truetype");
 }
 @font-face {
-  font-family : "Open";
-  src: url('../fonts/Open_Sans_Condensed/OpenSans-CondLight.ttf') format('truetype');
+  font-family : "texte";
+  src: url('../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+h1, h2, h3, h4{
+	font-family: 'titre', serif;
+}
+
+p, a{
+	font-family: 'texte', sans-serif;
 }
 
 
-#logo{
-	font-family: 'Kalam', cursive;
-}
+/* palette des couleurs
+>>>>>>> db12317325f3ccdb635c05033d03a9a8bae4c817
 
-h1, h4{
-	font-family: 'Josefin', serif;
-	font-size: 20px;
-}
+jaune = #FFF931
+vert = #a9c04b
+marron = #6e5342
+marron-clair = #af7653
+gris-clair = #e7dcc6
 
-p,footer{
-	font-family: 'Open', sans-serif;
-	font-size: 20px;
-}
-
-.navbar-brand{
-  font-family: 'kalam', cursive;
-  font-size: 40px;
-  color: #38382E;
-
-}
+*/
 
 .navbar {
   background-color: black;
   border: none;
-  opacity: 0.4;
+  opacity: .4;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-right: 20px;
@@ -47,20 +45,45 @@ p,footer{
   letter-spacing: 5px;
   font-weight: bold;
 }
-
-.navbar-default .navbar-nav > li > a
-{
-  color:#FFF;
-
+.navbar-brand {
+  font-family: 'logo', cursive;
+  font-size: 3em;
+  color: white !important;
+  opacity: 1 !important;
+}
+.navbar-default .navbar-nav > li > a {
+  color: white !important;
+  opacity: 1 !important;
 }
 
+<<<<<<< HEAD
 #homePhraseAccroche {
   margin-top:200px;
   font-size: 40px;
+=======
+#homePhraseAccroche{
+  margin-top:20px;
+  font-size: 1em;
+  overflow: auto;
+  height: 300px;
+}
+#homePhraseAccroche h1{
+  font-family: 'logo', cursive;
+  font-weight: bold;
+}
+#homePhraseAccroche p{
+  font-size: 1.5em;
+>>>>>>> db12317325f3ccdb635c05033d03a9a8bae4c817
 }
 .accrocheContact {
- text-align: center;
- background-color: #A97052;
+  text-align: center;
+  background-color: #A97052;
+  color: black;
+}
+.accrocheContact a {
+ color: white;
+ font-size: 1em;
+ font-weight: bold;
 }
 
 #pg-home, #pg-magnetisme, #pg-dietetique, #pg-atelier, #pg-apropos, #pg-contact {
@@ -73,7 +96,7 @@ p,footer{
 }
 
 #pg-magnetisme {
-  background-image: url(../img/harmony.jpg);
+  background-image: url(../img/water.jpg);
   height: 300px;
 }
 
@@ -105,7 +128,7 @@ footer > ul > li
 footer > ul > li > a, footer > ul > li > a:hover, footer > ul > li
 {
 
-  color:#000;
+  color:#e7dcc6;
 }
 footer > ul
 {
@@ -116,54 +139,98 @@ footer > ul
 {
   border-top: 2px solid black;
   padding: 20px;
-  background-color: #EF9B2B;
-  bottom: 0;
+  background-color: #6e5342;
 }
+
+/* Page Atelier */
+
+.hfixed {
+	height: 300px;
+}
+
+#icontent {
+	background-color:orange;
+
+}
+
+.atelierBandeTransition{
+	height: 80px;
+	text-align: center;
+	background-color: orange;
+	padding-top: 30px;
+}
+
+.caption {
+	padding:50px
+}
+
+/* Home Bloc News*/
+
+#homeBlocNews {
+	width:90%;
+	margin: auto;
+	background-color:white;
+	padding: auto;
+	overflow: auto;
+}
+
 /* dietetique - recette et conseil*/
+#dietFond{
+  background-image:  url(../img/vegetables.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#dietTabs{
+  background-color: white;
+  width: 90%;
+  margin: auto;
+}
 #dietTabs ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    height: 100px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100px;
 }
 #dietTabs li{
-    float: left;
-    width: 50%;
-    color: white;
+  float: left;
+  width: 50%;
+  color: white;
 }
 #dietTabs li a{
-    display: block;
-    color: white;
-    font-weight: bold;
-    font-family: 'Josefin', serif;
-    font-size: 2em;
-    text-align: center;
-    padding: auto;
+  display: block;
+  color: white;
+  font-weight: bold;
+  font-family: 'titre', serif;
+  font-size: 2em;
+  text-align: center;
+  padding: auto;
 }
 #dietTabs li a:hover{
-    text-decoration: underline;
+  text-decoration: underline;
 }
 #ongletRecette, #ongletConseil{
-    max-width: 100%;
-    height: auto;
-    display: block;
-    background-color: #A97052;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background-color: #A97052;
 }
 #dietTexteRecette, #dietTexteConseil{
-    padding: 1em;
+  padding: 1em;
 }
 #dietTexteRecette h2, #dietTexteConseil h2{
-    font-style: bold;
+  font-style: bold;
 }
 #dietTexteRecette img{
-    float: right;
-    width: 40%;
+  float: right;
+  width: 40%;
 }
 #dietTexteRecette ul, #dietTexteConseil ul{
-    width: 90%;
-    margin: auto;
-    display: inline;
+  width: 90%;
+  margin: auto;
+  display: inline;
 }
 #dietTexteRecette li, #dietTexteConseil li{
     margin-bottom: .5em;
@@ -417,4 +484,5 @@ input, textarea, button { margin-top:10px }
   font-size: 26px;
   margin: -3px 0 0 12px;
 }
+
 
