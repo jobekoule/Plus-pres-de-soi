@@ -21,7 +21,7 @@ p, a{
 
 
 /* palette des couleurs
->>>>>>> db12317325f3ccdb635c05033d03a9a8bae4c817
+
 
 jaune = #FFF931
 vert = #a9c04b
@@ -56,24 +56,16 @@ gris-clair = #e7dcc6
   opacity: 1 !important;
 }
 
-<<<<<<< HEAD
-#homePhraseAccroche {
-  margin-top:200px;
-  font-size: 40px;
-=======
-#homePhraseAccroche{
-  margin-top:20px;
-  font-size: 1em;
-  overflow: auto;
-  height: 300px;
-}
+
+
+
 #homePhraseAccroche h1{
   font-family: 'logo', cursive;
   font-weight: bold;
 }
 #homePhraseAccroche p{
   font-size: 1.5em;
->>>>>>> db12317325f3ccdb635c05033d03a9a8bae4c817
+
 }
 .accrocheContact {
   text-align: center;
