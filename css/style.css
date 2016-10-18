@@ -120,7 +120,7 @@ footer > ul > li
 footer > ul > li > a, footer > ul > li > a:hover, footer > ul > li
 {
 
-  color:#000;
+  color:#e7dcc6;
 }
 footer > ul
 {
@@ -131,7 +131,7 @@ footer > ul
 {
   border-top: 2px solid black;
   padding: 20px;
-  background-color: #FFF931;
+  background-color: #6e5342;
 }
 
 /* Page Atelier */
