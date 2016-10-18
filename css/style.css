@@ -118,43 +118,6 @@ footer > ul
   background-color: #EF9B2B;
 }
 
-<<<<<<< HEAD
-
-.style
-{
-  height: 600px;
-  background-color: #a66b49;
-}
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus
-{
-  background-color: #63493a !important;
-}
-.nav > li > a:hover, .nav > li > a:focus
-{
-  background-color: #e3d7bf;
-  color: #FFF;
-}
-a
-{
-  color: #FFF;
-}
-#map_canvas
-{
-  height: 30vh;
-}
-
-#text
-{
-  z-index: 99;
-  position: absolute;
-}
-#text1
-{
-  z-index: 99;
-  width: 20%;
-  position: absolute;
-
-=======
 /* Page Atelier */
 
 .hfixed {
@@ -237,5 +200,4 @@ a
     margin-bottom: .5em;
     color: black;
     float: none;
->>>>>>> e5f7af5cb3496156bf15dc1d2bf926bb1e1f6a8f
 }
