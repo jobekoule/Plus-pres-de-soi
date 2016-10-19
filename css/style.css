@@ -162,6 +162,8 @@ footer > ul
 
 /* Page Atelier */
 
+
+
 .hfixed {
 	height: 300px;
 }
@@ -170,9 +172,21 @@ footer > ul
 	text-align: center;
 	padding-top: 35px;
 }
-
+.btn-primary{
+  border:none !important;
+}
+.alert-info{
+  color: black !important;
+  border: none !important;
+  background-color: #a9c04b !important;
+}
 .caption {
-	padding:50px
+	padding:50px;
+  color: black !important;
+}
+.thumbnail{
+  color: black !important;
+  background-color: #e7dcc6 !important; 
 }
 
 /* Home Bloc News*/
