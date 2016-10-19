@@ -93,10 +93,9 @@ p, a{
 	font-weight: bold;
 }
 .boutonAccroche {
-	background-color: #a9c04b;
+	background-color: #FFF931;
 	border: none;
-	border-radius: 10px;
-	color: white;
+	color: #6e5342 !important;
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
@@ -188,7 +187,7 @@ footer > ul
 }
 .thumbnail{
 	color: black !important;
-	background-color: #e7dcc6 !important; 
+	background-color: #e7dcc6 !important;
 }
 
 /* Home Bloc News*/
@@ -447,7 +446,7 @@ img.img-responsive2 {
 	padding: 10px;
 	background-color: #6e5342;
 	border-radius: 15px;
-	color: #fff;  
+	color: #fff;
 }
 .nav.nav-justified > li.active > a > .quote { opacity: 1; }
 .nav.nav-justified > li > a > img { box-shadow: 0 0 0 5px #A97052; }
@@ -577,4 +576,3 @@ p.button {
 	top: 40px;
 
 }
-
