@@ -157,6 +157,16 @@ footer > ul
 
 /* Page Atelier */
 
+.alert-info {
+    color: black;
+    background-color: #a9c04b !important;
+    border-color: #a9c04b !important;
+}
+
+.btn-primary {
+    background-color: #a9c04b !important;
+    border-color: #a9c04b !important;
+
 .hfixed {
 	height: 300px;
 }
@@ -164,7 +174,6 @@ footer > ul
 .atelierBandeTransition{
 	text-align: center;
 	padding-top: 35px;
-
 }
 
 .caption {
