@@ -25,15 +25,18 @@ p, a{
 }
 .vert{
   background-color: #a9c04b !important;
-} 
+}
+
 .marron{
   background-color: #6e5342 !important;
   color: white;
 }
 .marron-clair{
+
   background-color: #af7653 !important;
   color: white;
-} 
+}
+
 .gris-clair{
   background-color: #e7dcc6 !important;
   color: black;
@@ -158,16 +161,10 @@ footer > ul
 	height: 300px;
 }
 
-#icontent {
-	background-color:orange;
-
-}
-
 .atelierBandeTransition{
-	height: 80px;
 	text-align: center;
-	background-color: orange;
-	padding-top: 30px;
+	padding-top: 35px;
+
 }
 
 .caption {
@@ -179,7 +176,7 @@ footer > ul
 #homeBlocNews {
 	width:90%;
 	margin: auto;
-	background-color:white;
+	background-color: #e7dcc6;
 	padding: auto;
 	overflow: auto;
 }
@@ -249,7 +246,7 @@ footer > ul
 .img-responsive {
   width: 540px;
   padding-bottom: 45px;
-  float: left;  
+  float: left;
 }
 
 .bio {
@@ -288,7 +285,7 @@ footer > ul
   padding-top: 20px;
   font-family: 'Josefin', serif;
 
-  
+
 }
 .partie-bio {
 
@@ -309,7 +306,7 @@ h4 {
 .customtitle1 {
   color: #663C26;
   font-weight: bold;
-  
+
 }
 
 #aproposPhraseAccroche h1 {
@@ -323,7 +320,7 @@ h4 {
 }
 
 blockquote {
-  font-family: 'Open', sans-serif; 
+  font-family: 'Open', sans-serif;
   position: relative;
   top: 60px;
   right: 60px;
@@ -388,13 +385,13 @@ blockquote {
   padding: 10px;
   background-color: #EF9B2B;
   border-radius: 15px;
-  color: #fff;  
+  color: #fff;
 }
 .nav.nav-justified > li.active > a > .quote { opacity: 1; }
 .nav.nav-justified > li > a > img { box-shadow: 0 0 0 5px #A97052; }
-.nav.nav-justified > li > a > img { 
-  max-width: 80%; 
-  opacity: .3; 
+.nav.nav-justified > li > a > img {
+  max-width: 80%;
+  opacity: .3;
   -webkit-transform: scale(.8,.8);
   transform: scale(.8,.8);
   -webkit-transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -403,8 +400,8 @@ blockquote {
 }
 .nav.nav-justified > li.active > a > img,
 .nav.nav-justified > li:hover > a > img,
-.nav.nav-justified > li:focus > a > img { 
-  opacity: 1; 
+.nav.nav-justified > li:focus > a > img {
+  opacity: 1;
   -webkit-transform: none;
   transform: none;
   -webkit-transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -418,7 +415,7 @@ blockquote {
     top: auto;
     right: 70px;
     bottom: 0px;
-  }  
+  }
 }
 .tab-apropos1 {
   font-size: 12px;
@@ -428,7 +425,7 @@ blockquote {
 input, textarea, button { margin-top:10px }
 
 .required-field-block {
-  position: relative;   
+  position: relative;
 }
 
 .required-field-block .required-icon {
@@ -491,5 +488,3 @@ input, textarea, button { margin-top:10px }
   font-size: 26px;
   margin: -3px 0 0 12px;
 }
-
-
