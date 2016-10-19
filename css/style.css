@@ -164,16 +164,10 @@ footer > ul
 	height: 300px;
 }
 
-#icontent {
-	background-color:#6e5342;
-
-}
-
 .atelierBandeTransition{
-	height: 80px;
 	text-align: center;
-	background-color: #6e5342;
-	padding-top: 30px;
+	padding-top: 35px;
+
 }
 
 .caption {
