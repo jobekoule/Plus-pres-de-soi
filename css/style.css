@@ -103,7 +103,7 @@ p, a{
 }
 .boutonAccroche:hover {
   text-decoration: none;
-  }
+}
 
 #pg-home, #pg-magnetisme, #pg-dietetique, #pg-atelier, #pg-apropos, #pg-contact {
   background-image: url(../img/flower.jpg);
@@ -169,7 +169,6 @@ footer > ul
 .atelierBandeTransition{
 	text-align: center;
 	padding-top: 35px;
-  font-size: .8em;
 }
 
 .caption {
@@ -231,6 +230,7 @@ footer > ul
 }
 #dietTexteRecette ul, #dietTexteConseil ul{
   display: block;
+  list-style-type: decimal;
 }
 #dietTexteRecette li, #dietTexteConseil li{
   margin-bottom: .5em;
