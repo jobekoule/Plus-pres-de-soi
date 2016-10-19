@@ -65,15 +65,17 @@ p, a{
   color: white !important;
   opacity: 1 !important;
 }
-
+#homePhraseAccroche{
+  padding: 40px;
+}
 #homePhraseAccroche h1{
+
   font-family: 'logo', cursive;
   font-weight: bold;
   color: white;
 }
-#homePhraseAccroche p{
-  font-size: 1.5em;
-  color: white;
+#decalagePhraseAccroche{
+  text-indent: 20px;
 }
 
 /* accroche pour prendre contact */
@@ -91,13 +93,16 @@ p, a{
 .boutonAccroche {
   background-color: #a9c04b;
   border: none;
-  border-radius: 50%;
+  border-radius: 10px;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+.boutonAccroche:hover {
+  text-decoration: none;
 }
 
 #pg-home, #pg-magnetisme, #pg-dietetique, #pg-atelier, #pg-apropos, #pg-contact {
@@ -157,6 +162,8 @@ footer > ul
 
 /* Page Atelier */
 
+
+
 .hfixed {
 	height: 300px;
 }
@@ -164,33 +171,39 @@ footer > ul
 .atelierBandeTransition{
 	text-align: center;
 	padding-top: 35px;
-
 }
-
+.btn-primary{
+  border:none !important;
+}
+.alert-info{
+  color: black !important;
+  border: none !important;
+  background-color: #a9c04b !important;
+}
 .caption {
-	padding:50px
+	padding:50px;
+  color: black !important;
+}
+.thumbnail{
+  color: black !important;
+  background-color: #e7dcc6 !important; 
 }
 
 /* Home Bloc News*/
 
 #homeBlocNews {
-	width:90%;
-	margin: auto;
 	background-color: #e7dcc6;
 	padding: auto;
 	overflow: auto;
 }
-
 /* dietetique - recette et conseil*/
 
 .descriptifDietMagnet{
-  height: 200px;
   padding: 10px;
 }
 .descriptifDietMagnet h1{
   text-align: center;
 }
-
 #dietTabs{
   background-color: white;
 }
@@ -214,14 +227,14 @@ footer > ul
   text-align: center;
   padding: auto;
 }
-#dietTabs li a:hover{
-  text-decoration: underline;
+.nav > li > a:focus, .nav > li > a:hover {
+  text-decoration: none;
+  background-color: #a9c04b;
 }
 #ongletRecette, #ongletConseil{
   max-width: 100%;
   height: auto;
   display: block;
-  background-color: #A97052;
 }
 #dietTexteRecette, #dietTexteConseil{
   padding: 1em;
@@ -229,14 +242,8 @@ footer > ul
 #dietTexteRecette h2, #dietTexteConseil h2{
   font-style: bold;
 }
-#dietTexteRecette img{
-  float: right;
-  width: 40%;
-}
 #dietTexteRecette ul, #dietTexteConseil ul{
-  width: 90%;
-  margin: auto;
-  display: inline;
+  display: block;
 }
 #dietTexteRecette li, #dietTexteConseil li{
   margin-bottom: .5em;

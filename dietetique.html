@@ -9,8 +9,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-	<!-- bibliotheque d'icons -->
-	<script src="https://use.fontawesome.com/ae88100185.js"></script>
+	<!-- bibliotheque d'effets hover pour le bouton de la phrase d'accroche -->
+	<link rel="stylesheet" type="text/css" href="css/hover.css">
+	<link rel="stylesheet" type="text/css" href="css/hover-min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<title>Plus près de Soi</title>
@@ -50,7 +51,7 @@
 
 				</header>
 
-				<div class="marron row descriptifDietMagnet">
+				<div class="vert row descriptifDietMagnet">
 
 					<div class="col-xs-12">
 						<h1>Définition de la diététique</h1>
@@ -65,7 +66,7 @@
 					<div id="dietTabs">
 
 						<!-- Nav tabs -->
-						<ul class="nav" role="tablist">
+						<ul class="nav marron-clair" role="tablist">
 							<li role="presentation" class="active"><a id="ongletRecette" href="#recette" aria-controls="recette" role="tab" data-toggle="tab">Recette coup de coeur</a></li>
 							<li role="presentation"><a id="ongletConseil" href="#conseil" aria-controls="conseil" role="tab" data-toggle="tab">Conseil du jour</a></li>
 						</ul>
@@ -73,27 +74,37 @@
 						<!-- Tab panes -->
 						<div class="tab-content">
 							<div id="recette" role="tabpanel" class="tab-pane fade in active">
-							<div id="dietTexteRecette">
-									<img class="img-responsive" src="img/fruit5.jpg">
-									<h1>Recette</h1>
+								<div class="row" id="dietTexteRecette">
+									<div class="col-xs-6">
+										<img class="img-responsive" src="img/fruit5.jpg">
 
-									<p>Nombre de personnes - Temps de préparation</p>
+										<h2>Ingrédients (pour 6 muffins):</h2><br>
+										<ul>
+											<li>- 140 grs de farine</li>
+											<li>- 50 grs de sucre</li>
+											<li>- 1 sachet de levure chimique</li>
+											<li>- 40 grs de noix de coco en poudre</li>
+											<li>- 60 grs de pépites de chocolat noir (il est possible de faire des grosses pépites en coupant du chocolat à patisserie)</li>
+											<li>- 1/2 c/c de cannelle</li>
+											<li>- 1 c/s de tahin (se trouve en épicerie bio)</li>
+											<li>- 10 cl de lait </li>
+											<li>- 1 œuf</li>
+										</ul>
+									</div>
+									<div class="col-xs-6">							
+										<h1>MUFFINS COCO-CHOCOLAT AU TAHIN (sans beurre)</h1>
 
-									<h2>Ingrédients:</h2>
-
-									<ul>
-										<li>Ingrédient 1</li>
-										<li>Ingrédient 2</li>
-										<li>Ingrédient 3</li>
-									</ul>
-
-									<h2>Etapes:</h2>
-
-									<ul>
-										<li>Etapes 1</li>
-										<li>Etapes 2</li>
-										<li>Etapes 3</li>
-									</ul>
+										<p><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Nombre de personnes - <span class="glyphicon glyphicon-time" aria-hidden="true"></span> Temps de préparation</p>
+										<h2>Etapes:</h2><br>
+										<ol>
+											<li>Préchauffer le four à 180° (Thermostat 6)</li>
+											<li>Mélanger la farine, la noix de coco, la levure, le sucre, le chocolat et la cannelle</li>
+											<li>A côté, mélanger le tahin, l’œuf et le lait</li>
+											<li>Ajouter les liquides (tahin, œuf et lait) aux ingrédients secs et homogénéiser la pâte</li>
+											<li>Etapes 2 Verser dans les moules à muffins et cuire 15-20 minutes</li>
+											<li>Attendre qu’ils aient refroidis pour démouler</li>
+										</ol>
+									</div>
 								</div>
 							</div>
 							<div id="conseil" role="tabpanel" class="tab-pane fade">
@@ -112,7 +123,7 @@
 				<div class="row accrocheContact">
 					<div class="col-xs-12">
 						<h3>Vous avez décidé de prendre soin de vous ? C'est le moment</h3>
-						<a class="boutonAccroche" href="contact.html">Me contacter</a>
+						<a class="boutonAccroche hvr-pulse" href="contact.html">Me contacter</a>
 
 					</div>
 				</div>
