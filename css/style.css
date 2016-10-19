@@ -61,12 +61,14 @@ p, a{
   color: white !important;
   opacity: 1 !important;
 }
+@media (max-width: 360px){
+.navbar-brand {
+  font-size: 1.3em;
+}
+}
 .nav a {
   color: white !important;
   opacity: 1 !important;
-}
-#homePhraseAccroche{
-  padding: 40px;
 }
 #homePhraseAccroche h1{
 
