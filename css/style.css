@@ -578,3 +578,39 @@ p.button {
 
 }
 
+.accueil_btn_top , .accueil_btn_bottom
+{
+  color: white;
+  border: none;
+  display:inline-block;
+  font-size: 16px;
+  width: 120px;
+  height: 60px;
+  margin: auto;
+  font-size: 1.2em;
+}
+.accueil_btn_top, .accueil_btn_top > a
+{
+   border-radius: 60px 60px 0 0;
+   color: #FFF !important;
+}
+.accueil_btn_bottom, .accueil_btn_bottom > a
+{
+  margin-top: -1px; 
+    border-radius: 0px 0px 60px  60px;
+    color: #000 !important;
+}
+.accueil_txt
+{
+
+  padding:40px 40px 80px 40px;
+  margin-bottom:-60px;
+  text-align: center;
+}
+.accueil_txt2
+{
+  margin-top: -60px;
+  padding:80px 40px 40px 40px;
+  text-align: center;
+  margin-bottom: 0;
+}
