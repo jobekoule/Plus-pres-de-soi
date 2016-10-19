@@ -9,8 +9,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-	<!-- bibliotheque d'icons -->
-	<script src="https://use.fontawesome.com/ae88100185.js"></script>
+	<!-- bibliotheque d'effets hover pour le bouton de la phrase d'accroche -->
+	<link rel="stylesheet" type="text/css" href="css/hover.css">
+	<link rel="stylesheet" type="text/css" href="css/hover-min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<title>Plus près de Soi</title>
@@ -50,7 +51,7 @@
 
 				</header>
 
-				<div class="marron row descriptifDietMagnet">
+				<div class="vert row descriptifDietMagnet">
 
 					<div class="col-xs-12">
 						<h1>Définition de la diététique</h1>
@@ -73,25 +74,28 @@
 						<!-- Tab panes -->
 						<div class="tab-content">
 							<div id="recette" role="tabpanel" class="tab-pane fade in active">
-							<div id="dietTexteRecette">
-									<img class="img-responsive" src="img/fruit5.jpg">
-									<h1>Recette</h1>
+								<div class="row" id="dietTexteRecette">
+									<div class="col-xs-6">
+										<img class="img-responsive" src="img/fruit5.jpg">
 
-									<p>Nombre de personnes - Temps de préparation</p>
+										<h2>Ingrédients:</h2><br>
+										<ul>
+											<li>Ingrédient 1</li>
+											<li>Ingrédient 2</li>
+											<li>Ingrédient 3</li>
+										</ul>
+									</div>
+									<div class="col-xs-6">							
+										<h1>Recette</h1>
 
-									<ul>
-										<li><h2>Ingrédients:</h2></li>
-										<li>Ingrédient 1</li>
-										<li>Ingrédient 2</li>
-										<li>Ingrédient 3</li>
-									</ul>
-
-									<ul>
-										<li><h2>Etapes:</h2></li>
-										<li>Etapes 1</li>
-										<li>Etapes 2</li>
-										<li>Etapes 3</li>
-									</ul>
+										<p><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Nombre de personnes - <span class="glyphicon glyphicon-time" aria-hidden="true"></span> Temps de préparation</p>
+										<h2>Etapes:</h2><br>
+										<ul>
+											<li>Etapes 1</li>
+											<li>Etapes 2</li>
+											<li>Etapes 3</li>
+										</ul>
+									</div>
 								</div>
 							</div>
 							<div id="conseil" role="tabpanel" class="tab-pane fade">
@@ -110,7 +114,7 @@
 				<div class="row accrocheContact">
 					<div class="col-xs-12">
 						<h3>Vous avez décidé de prendre soin de vous ? C'est le moment</h3>
-						<a class="boutonAccroche" href="contact.html">Me contacter</a>
+						<a class="boutonAccroche hvr-pulse" href="contact.html">Me contacter</a>
 
 					</div>
 				</div>
