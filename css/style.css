@@ -187,13 +187,11 @@ footer > ul
 /* dietetique - recette et conseil*/
 
 .descriptifDietMagnet{
-  height: 200px;
   padding: 10px;
 }
 .descriptifDietMagnet h1{
   text-align: center;
 }
-
 #dietTabs{
   background-color: white;
 }
@@ -217,14 +215,14 @@ footer > ul
   text-align: center;
   padding: auto;
 }
-#dietTabs li a:hover{
-  text-decoration: underline;
-}
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #a9c04b;
+  }
 #ongletRecette, #ongletConseil{
   max-width: 100%;
   height: auto;
   display: block;
-  background-color: #A97052;
 }
 #dietTexteRecette, #dietTexteConseil{
   padding: 1em;
@@ -233,7 +231,7 @@ footer > ul
   font-style: bold;
 }
 #dietTexteRecette img{
-  float: right;
+  float: left;
   width: 40%;
 }
 #dietTexteRecette ul, #dietTexteConseil ul{
