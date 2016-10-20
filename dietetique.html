@@ -1,156 +1,148 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-	<!-- Theme Made By www.w3schools.com - No Copyright -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!DOCTYPE html>
+	<html lang="fr">
+	<head>
+		<!-- Theme Made By www.w3schools.com - No Copyright -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-	<!-- bibliotheque d'effets hover pour le bouton de la phrase d'accroche -->
-	<link rel="stylesheet" type="text/css" href="css/hover.css">
-	<link rel="stylesheet" type="text/css" href="css/hover-min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- bibliotheque d'effets hover pour le bouton de la phrase d'accroche -->
+		<link rel="stylesheet" type="text/css" href="css/hover.css">
+		<link rel="stylesheet" type="text/css" href="css/hover-min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 
-	<title>Plus près de Soi</title>
+		<title>Plus près de Soi</title>
 
-</head>
+	</head>
 
-<body>
+	<body>
 
-	<div class="container-fluid">
+		<div class="container-fluid">
 
-		<div class="row">
+					<header class="row" id="pg-dietetique">
 
-			<div class="col-xs-10 col-xs-offset-1">
+						<nav class="navbar navbar-default">
 
-				<header class="row" id="pg-dietetique">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand" href="home.html">Plus Près de Soi</a>
+							</div>
+							<div class="collapse navbar-collapse" id="myNavbar">
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="home.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+									<li><a href="dietetique.html">Diététique</a></li>
+									<li><a href="magnetisme.html">Magnétisme</a></li>
+									<li><a href="atelier.html">Mes ateliers</a></li>
+									<li><a href="contact.html">Contact</a></li>
+									<li><a href="apropos.html">A propos</a></li>
+								</ul>
+							</div>
+						</nav>
 
-					<nav class="navbar navbar-default">
+					</header>
 
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-							<a class="navbar-brand" href="home.html">Plus Près de Soi</a>
+					<div class="vert row descriptifDietMagnet">
+
+						<div class="col-xs-12">
+							<h1>Définition de la diététique</h1>
+							<p>La diététique est la science de l'alimentation équilibrée. Elle permet de retrouver une alimentation équilibrée afin de trouver ou retrouver votre santé.  Je vous aide à équilibrer vos repas, à répondre à vos besoins en quantité et en qualité, à retrouver le plaisir dans votre alimentation, tout en m’adaptant à vos goûts et à votre rythme de vie. Je ne conseille pas de restriction alimentaire avec la tête comme ce que préconisent  quasiment tous les régimes. L’objectif est de retrouver ses propres repères de faim et de satiété pour répondre à ses besoins On travaille sur le comportement alimentaire pour que les effets agissent sur du long terme. On abordera vos croyances et représentations, votre histoire, vos habitudes…</p>
+
 						</div>
-						<div class="collapse navbar-collapse" id="myNavbar">
-							<ul class="nav navbar-nav navbar-right">
-								<li><a href="dietetique.html">Diététique</a></li>
-								<li><a href="magnetisme.html">Magnétisme</a></li>
-								<li><a href="atelier.html">Mes ateliers</a></li>
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="apropos.html">A propos</a></li>
+
+					</div>
+
+					<div class="row" id="dietTabs">
+
+							<!-- Nav tabs -->
+							<ul class="nav marron-clair" role="tablist">
+								<li role="presentation" class="active"><a id="ongletRecette" href="#recette" aria-controls="recette" role="tab" data-toggle="tab">Recette coup de coeur</a></li>
+								<li role="presentation"><a id="ongletConseil" href="#conseil" aria-controls="conseil" role="tab" data-toggle="tab">Conseil du jour</a></li>
 							</ul>
-						</div>
-					</nav>
 
-				</header>
+							<!-- Tab panes -->
+							<div class="tab-content">
+								<div id="recette" role="tabpanel" class="tab-pane fade in active">
+									<div class="row" id="dietTexteRecette">
+										<div class="col-xs-6">
+											<img class="img-responsive" src="img/muffins.jpg">
 
-				<div class="vert row descriptifDietMagnet">
+											<h2>Ingrédients (pour 6 muffins):</h2><br>
+											<ul>
+												<li>- 140 grs de farine</li>
+												<li>- 50 grs de sucre</li>
+												<li>- 1 sachet de levure chimique</li>
+												<li>- 40 grs de noix de coco en poudre</li>
+												<li>- 60 grs de pépites de chocolat noir (il est possible de faire des grosses pépites en coupant du chocolat à patisserie)</li>
+												<li>- 1/2 c/c de cannelle</li>
+												<li>- 1 c/s de tahin (se trouve en épicerie bio)</li>
+												<li>- 10 cl de lait </li>
+												<li>- 1 œuf</li>
+											</ul>
+										</div>
+										<div class="col-xs-6">
+											<h1>MUFFINS COCO-CHOCOLAT AU TAHIN (sans beurre)</h1>
 
-					<div class="col-xs-12">
-						<h1>Définition de la diététique</h1>
-						<p>La diététique est la science de l'alimentation équilibrée. Elle permet de retrouver une alimentation équilibrée afin de trouver ou retrouver votre santé.  Je vous aide à équilibrer vos repas, à répondre à vos besoins en quantité et en qualité, à retrouver le plaisir dans votre alimentation, tout en m’adaptant à vos goûts et à votre rythme de vie. Je ne conseille pas de restriction alimentaire avec la tête comme ce que préconisent  quasiment tous les régimes. L’objectif est de retrouver ses propres repères de faim et de satiété pour répondre à ses besoins On travaille sur le comportement alimentaire pour que les effets agissent sur du long terme. On abordera vos croyances et représentations, votre histoire, vos habitudes…</p>
+											<p><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Nombre de personnes - <span class="glyphicon glyphicon-time" aria-hidden="true"></span> Temps de préparation</p>
+											<h2>Etapes:</h2><br>
+											<ol>
+												<li>Préchauffer le four à 180° (Thermostat 6)</li>
+												<li>Mélanger la farine, la noix de coco, la levure, le sucre, le chocolat et la cannelle</li>
+												<li>A côté, mélanger le tahin, l’œuf et le lait</li>
+												<li>Ajouter les liquides (tahin, œuf et lait) aux ingrédients secs et homogénéiser la pâte</li>
+												<li>Etapes 2 Verser dans les moules à muffins et cuire 15-20 minutes</li>
+												<li>Attendre qu’ils aient refroidis pour démouler</li>
+											</ol>
+										</div>
+									</div>
+								</div>
+								<div id="conseil" role="tabpanel" class="tab-pane fade">
+									<div id="dietTexteConseil">
+										<h1>Limitez au maximum votre consommation de viande rouge</h1>
+										<p>
+											Il est préférable d’éviter dans tous les cas la viande rouge, même maigre, car le bétail est en général saturé par les hormones et les antibiotiques utilisés par les élevages industriels, notamment parce qu’il faut plus de temps pour élever une vache ou un cochon qu’une poule. De plus cette viande est souvent riche en cholestérol, et il y a un risque d’infection par les prions, en raison de la maladie de la vache folle.
+
+											Au pire, mangez de la viande rouge bio, mais essayez de privilégier la viande blanche et les poissons riches en EPA/DHA, notamment le saumon. Prenez les bio si vous le pouvez.
+										</p>
+									</div>
+								</div>
+							</div>
 
 					</div>
 
-				</div>
+					<div class="row accrocheContact">
+						<div class="col-xs-12">
+							<h3>Vous avez décidé de prendre soin de vous ? C'est le moment</h3>
+							<a class="boutonAccroche hvr-round-corners" href="contact.html">Me contacter</a>
 
-				<div class="row">
+						</div>
+					</div>
 
-					<div id="dietTabs">
-
-						<!-- Nav tabs -->
-						<ul class="nav marron-clair" role="tablist">
-							<li role="presentation" class="active"><a id="ongletRecette" href="#recette" aria-controls="recette" role="tab" data-toggle="tab">Recette coup de coeur</a></li>
-							<li role="presentation"><a id="ongletConseil" href="#conseil" aria-controls="conseil" role="tab" data-toggle="tab">Conseil du jour</a></li>
+					<footer class="row footer">
+						<ul>
+							<li><a href="dietetique.html">Diététique</a></li>
+							<li><a href="magnetisme.html">Magnétisme</a></li>
+							<li><a href="atelier.html">Mes ateliers</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="apropos.html">A propos</a></li>
+							<li><a href="mention.html">Mentions légale</a></li>
 						</ul>
-
-						<!-- Tab panes -->
-						<div class="tab-content">
-							<div id="recette" role="tabpanel" class="tab-pane fade in active">
-								<div class="row" id="dietTexteRecette">
-									<div class="col-xs-6">
-										<img class="img-responsive" src="img/fruit5.jpg">
-
-										<h2>Ingrédients (pour 6 muffins):</h2><br>
-										<ul>
-											<li>- 140 grs de farine</li>
-											<li>- 50 grs de sucre</li>
-											<li>- 1 sachet de levure chimique</li>
-											<li>- 40 grs de noix de coco en poudre</li>
-											<li>- 60 grs de pépites de chocolat noir (il est possible de faire des grosses pépites en coupant du chocolat à patisserie)</li>
-											<li>- 1/2 c/c de cannelle</li>
-											<li>- 1 c/s de tahin (se trouve en épicerie bio)</li>
-											<li>- 10 cl de lait </li>
-											<li>- 1 œuf</li>
-										</ul>
-									</div>
-									<div class="col-xs-6">							
-										<h1>MUFFINS COCO-CHOCOLAT AU TAHIN (sans beurre)</h1>
-
-										<p><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Nombre de personnes - <span class="glyphicon glyphicon-time" aria-hidden="true"></span> Temps de préparation</p>
-										<h2>Etapes:</h2><br>
-										<ol>
-											<li>Préchauffer le four à 180° (Thermostat 6)</li>
-											<li>Mélanger la farine, la noix de coco, la levure, le sucre, le chocolat et la cannelle</li>
-											<li>A côté, mélanger le tahin, l’œuf et le lait</li>
-											<li>Ajouter les liquides (tahin, œuf et lait) aux ingrédients secs et homogénéiser la pâte</li>
-											<li>Etapes 2 Verser dans les moules à muffins et cuire 15-20 minutes</li>
-											<li>Attendre qu’ils aient refroidis pour démouler</li>
-										</ol>
-									</div>
-								</div>
-							</div>
-							<div id="conseil" role="tabpanel" class="tab-pane fade">
-								<div id="dietTexteConseil">
-									<h1>Limitez au maximum votre consommation de viande rouge</h1>
-									<p>
-										Il est préférable d’éviter dans tous les cas la viande rouge, même maigre, car le bétail est en général saturé par les hormones et les antibiotiques utilisés par les élevages industriels, notamment parce qu’il faut plus de temps pour élever une vache ou un cochon qu’une poule. De plus cette viande est souvent riche en cholestérol, et il y a un risque d’infection par les prions, en raison de la maladie de la vache folle.
-
-										Au pire, mangez de la viande rouge bio, mais essayez de privilégier la viande blanche et les poissons riches en EPA/DHA, notamment le saumon. Prenez les bio si vous le pouvez.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="row accrocheContact">
-					<div class="col-xs-12">
-						<h3>Vous avez décidé de prendre soin de vous ? C'est le moment</h3>
-						<a class="boutonAccroche hvr-pulse" href="contact.html">Me contacter</a>
-
-					</div>
-				</div>
-
-				<footer class="row footer">
-					<ul>
-						<li><a href="dietetique.html">Diététique</a></li>
-						<li><a href="magnetisme.html">Magnétisme</a></li>
-						<li><a href="atelier.html">Mes ateliers</a></li>
-						<li><a href="contact.html">Contact</a></li>
-						<li><a href="apropos.html">A propos</a></li>
-						<li><a href="mention.html">Mentions légale</a></li>
-					</ul>
-					<ul>
-						<li>© 2016 Melina Guillet</li>
-						<li><a href="mailto:melinaguillet26@gmail.com"><span class="glyphicon glyphicon-send" aria-hidden="true"></span> E-mail</a></li>
-						<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> 06.72.31.97.12</li>
-					</ul>
-					<ul>
-						<li><a href="http://uni.vers.sante.28.over-blog.com">Assosiation UniVersSante28</a></li>
-						<li><a href="http://www.wildcodeschool.fr/">Développé par la Wild Code School</a></li>
-					</ul>
-				</footer>
-			</div>
+						<ul>
+							<li>© 2016 Melina Guillet</li>
+							<li><a href="mailto:melinaguillet26@gmail.com"><span class="glyphicon glyphicon-send" aria-hidden="true"></span> E-mail</a></li>
+							<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> 06.72.31.97.12</li>
+						</ul>
+						<ul>
+							<li><a href="http://uni.vers.sante.28.over-blog.com">Assosiation UniVersSante28</a></li>
+							<li><a href="http://www.wildcodeschool.fr/">Développé par la Wild Code School</a></li>
+						</ul>
+					</footer>
 		</div>
-	</div>
-</body>
-</html>
+	</body>
+	</html>
