@@ -193,10 +193,12 @@
 	/* Home Bloc News*/
 
 	#homeBlocNews {
-		background-color: #e7dcc6;
+		background-color: white !important;
 		padding: auto;
 		overflow: auto;
+		text-align: center;
 	}
+
 	/* dietetique - recette et conseil*/
 
 	.descriptifDietMagnet{
