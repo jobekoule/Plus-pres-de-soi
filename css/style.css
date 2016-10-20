@@ -132,8 +132,8 @@ p, a{
 }
 
 #pg-apropos {
-	background-image: url(../img/butterfly.jpg);
-	height: 300px;
+	background-image: url(../img/heron8.jpg);
+	height: 350px;
 }
 
 #pg-contact {
@@ -254,11 +254,12 @@ footer > ul
 }
 /*apropos*/
 
+
 .img-responsive1 {
-	width: 110%;
+	width: 90%;
 	padding-top: 30px;
 	padding-left: 55px;
-	float: left;
+	float: right;
 }
 .apropos {
 	background-color: #e7dcc6;
@@ -358,12 +359,15 @@ h4 {
 }
 
 #aproposPhraseAccroche h1 {
-	color: #A97052;
-	font-size: 4em;
+	color: white;
+	font-size: 4.5em;
 	font-style: italic;
+	font-weight: bold;
 	text-align: center;
 	position: relative;
-	top: 40px;
+	top: 100px;
+	left: 70px;
+
 
 }
 
