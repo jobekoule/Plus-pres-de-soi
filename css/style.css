@@ -260,10 +260,10 @@ footer > ul
 /*apropos*/
 
 .img-responsive1 {
-	width: 110%;
+	width: 90%;
 	padding-top: 30px;
 	padding-left: 55px;
-	float: left;
+	float: right;
 }
 .apropos {
 	background-color: #e7dcc6;
