@@ -1,136 +1,138 @@
 <!DOCTYPE html>
-    <html lang="fr">
-    <head>
-      <!-- Theme Made By www.w3schools.com - No Copyright -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<html lang="fr">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- bibliotheque d'icons -->
-    <script src="https://use.fontawesome.com/ae88100185.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/contact.css">
-    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-    <script src="js/map2.js"></script>
-    <!--<script src="js/map.js"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- bibliotheque d'icons -->
+  <script src="https://use.fontawesome.com/ae88100185.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  <script src="js/map2.js"></script>
+ 
 
-    <title>Plus près de Soi</title>
+  <title>Plus près de Soi</title>
 
-  </head>
+</head>
 
-  <body onload="initialize()">
+<body onload="initialize()">
 
-      <div class="container-fluid">
+  <div class="container-fluid">
 
-            <header class="row" id="pg-contact">
+    <header class="row" id="pg-contact">
 
-              <nav class="navbar navbar-default">
+      <nav class="navbar navbar-default">
 
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="home.html">Plus Près de Soi</a>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                  <ul class="nav navbar-nav navbar-right">
-                    <li><a href="dietetique.html">Diététique</a></li>
-                    <li><a href="magnetisme.html">Magnétisme</a></li>
-                    <li><a href="atelier.html">Mes ateliers</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="apropos.html">A propos</a></li>
-                  </ul>
-                </div>
-              </nav>
-            </header>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="home.html">Plus Près de Soi</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="dietetique.html">Diététique</a></li>
+            <li><a href="magnetisme.html">Magnétisme</a></li>
+            <li><a href="atelier.html">Mes ateliers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="apropos.html">A propos</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-          <section class="row ContactStyle marron-clair">
+    <section class="row marron-clair">
+      <!-- MAP -->
+      <div class="col-xs-10 col-xs-offset-1  gris-clair contactBlocMap">
+       <h1 class="text-align"> Mes points de Rdv </h1>
+       <h3 class="text-align">Contactez-moi pour prendre rendez-vous. </h3>
 
-
-            <div class="row">
-              <div class="col-xs-10 col-xs-offset-1 gris-clair" style="border-radius: 4px ; margin-top:5vh;margin-bottom: 5vh;">
-                <h1  style="text-align: center;"> Mes points de Rdv </h1>
-                <h3 style="text-align: center;">Contactez-moi pour prendre rendez-vous. </h3>
-                  <p class="col-sm-5 col-sm-offset-1 contactTxt" ><span class="contactSpan vert"></span>4 Rue du Préau, Chartres <br> 28300</p>
-                <div id="contact_border"></div>
-                  <p class="col-sm-5 col-sm-offset-1 contactTxt2"><span class="contactSpan2 jaune"></span>34 rue de la tannerie  Berchères-Saint-Germain <br> 28000</p>
-              </div>
-
-            </div>
-
-            <div  id="MapBrechere"></div>
-
-
-            <form class="form-horizontal" role="form" method="post" >
-              <div class="form-group">
-                <label for="name" class="col-sm-2 control-label withe">Nom : </label>
-                <div class="col-sm-8 col-sm-offset-1">
-                  <input type="text" class="form-control" id="name" name="name" placeholder="Nom & Prénom" value="">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="email" class="col-sm-2 control-label withe"  >Email : </label>
-                <div class="col-sm-8 col-sm-offset-1">
-                  <input type="email" class="form-control" id="email" name="email"  value="">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="message" class="col-sm-2 control-label withe">Message : </label>
-                <div class="col-sm-8 col-sm-offset-1">
-                  <textarea class="form-control" rows="4" name="message"></textarea>
-                </div>
-              </div>
-              <!-- Bouton radio-->
-              <div class="col-sm-offset-3">
-                <div class="radio radio-inline">
-                  <input type="radio" id="inlineRadio1" value="option1" name="radioInline" checked="">
-                  <label for="inlineRadio1"> Particulier </label>
-                </div>
-                <div class="radio radio-inline">
-                  <input type="radio" id="inlineRadio2" value="option1" name="radioInline">
-                  <label for="inlineRadio2"> Professionnel </label>
-                </div>
-              </div>
-              <!-- Bouton radio-->
-              <div class="form-group">
-                <div class="col-sm-10 col-sm-offset-3">
-                  <input id="submit" name="submit" type="submit" value="Envoyer" class="btn vert">
-                </div>
-              </div>
-
-
-
-
-
-            </form>
-          </section>
-
-
-          <footer class="row footer">
-            <ul>
-              <li><a href="dietetique.html">Diététique</a></li>
-              <li><a href="magnetisme.html">Magnétisme</a></li>
-              <li><a href="atelier.html">Mes ateliers</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="apropos.html">A propos</a></li>
-              <li><a href="mention.html">Mentions légale</a></li>
-            </ul>
-            <ul>
-              <li>© 2016 Melina Guillet</li>
-              <li><a href="mailto:melinaguillet26@gmail.com"><span class="glyphicon glyphicon-send" aria-hidden="true"></span> E-mail</a></li>
-              <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> 06.72.31.97.12</li>
-            </ul>
-            <ul>
-              <li><a href="http://uni.vers.sante.28.over-blog.com">Assosiation UniVersSante28</a></li>
-              <li><a href="http://www.wildcodeschool.fr/">Développé par la Wild Code School</a></li>
-            </ul>
-          </footer>
+       <div class="row">
+        <p class="col-xs-5 col-xs-offset-1 contactTxt" ><span class="contactSpan vert"></span>4 Rue du Préau, Chartres <br> 28300</p>
+        <div id="contact_border"></div>
+        <p class="col-xs-5 col-xs-offset-1 contactTxt2"><span class="contactSpan2 jaune"></span>34 rue de la tannerie  Berchères-Saint-Germain <br> 28000</p>
+      </div>
+      <div class="row" id="MapBrechere">
+      </div> 
     </div>
-  </body>
+    
+    <!-- Formulaire -->
+    <div class="row">
+    <form class="form-horizontal col-xs-10 col-xs-offset-1" role="form" method="post" >
+
+      <div class="form-group">
+        <label for="name" class="col-sm-2 control-label withe">Nom : </label>
+        <div class="col-sm-8 col-sm-offset-1">
+          <input type="text" class="form-control" id="name" name="name" placeholder="Nom & Prénom" value="">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="email" class="col-sm-2 control-label withe"  >Email : </label>
+        <div class="col-sm-8 col-sm-offset-1">
+          <input type="email" class="form-control" id="email" name="email"  value="">
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label for="message" class="col-sm-2 control-label withe">Message : </label>
+        <div class="col-sm-8 col-sm-offset-1">
+          <textarea class="form-control" rows="4" name="message"></textarea>
+        </div>
+      </div>
+
+      <!-- Bouton radio-->
+      <div class="col-sm-offset-3">
+        <div class="radio radio-inline">
+          <input type="radio" id="inlineRadio1" value="option1" name="radioInline" checked="">
+          <label for="inlineRadio1"> Particulier </label>
+        </div>
+        <div class="radio radio-inline">
+          <input type="radio" id="inlineRadio2" value="option1" name="radioInline">
+          <label for="inlineRadio2"> Professionnel </label>
+        </div>
+      </div>
+
+      <!-- Envoyer-->
+      <div class="form-group">
+        <div class="cosm-10 col-sm-offset-3">
+          <input id="submit" name="submit" type="submit" value="Envoyer" class="btn vert">
+        </div>
+      </div>
+    </form>
+  </div>
+
+</section>
+
+
+<footer class="row footer">
+  <ul>
+    <li><a href="dietetique.html">Diététique</a></li>
+    <li><a href="magnetisme.html">Magnétisme</a></li>
+    <li><a href="atelier.html">Mes ateliers</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="apropos.html">A propos</a></li>
+    <li><a href="mention.html">Mentions légale</a></li>
+  </ul>
+  <ul>
+    <li>© 2016 Melina Guillet</li>
+    <li><a href="mailto:melinaguillet26@gmail.com"><span class="glyphicon glyphicon-send" aria-hidden="true"></span> E-mail</a></li>
+    <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> 06.72.31.97.12</li>
+  </ul>
+  <ul>
+    <li><a href="http://uni.vers.sante.28.over-blog.com">Assosiation UniVersSante28</a></li>
+    <li><a href="http://www.wildcodeschool.fr/">Développé par la Wild Code School</a></li>
+  </ul>
+</footer>
+</div>
+</body>
 </html>

@@ -1,12 +1,11 @@
-body
-{
- overflow-x:hidden;
-}
-
 /** Contact **/
 #MapBrechere
 {
   height: 35vh;
+}
+.form-horizontal
+{
+  margin-top: 5vh;
 }
 .contactSpan , .contactSpan2
 {
@@ -104,4 +103,8 @@ body
                 cursor: not-allowed; }
                 .radio.radio-inline {
                   margin-top: 0; }
+body
+{
+ overflow-x:hidden;
+}
                   
