@@ -62,13 +62,17 @@
 
 							<!-- Nav tabs -->
 							<ul class="nav marron-clair" role="tablist">
-								<li role="presentation" class="active"><a id="ongletRecette" href="#recette" aria-controls="recette" role="tab" data-toggle="tab">Recette coup de coeur</a></li>
-								<li role="presentation"><a id="ongletConseil" href="#conseil" aria-controls="conseil" role="tab" data-toggle="tab">Conseil du jour</a></li>
+								<li role="presentation">
+									<a id="ongletRecette" href="#recette" aria-controls="recette" role="tab" data-toggle="tab" class="tabDietetique activeLien">Recette coup de coeur</a>
+								</li>
+								<li role="presentation">
+									<a id="ongletConseil" href="#conseil" aria-controls="conseil" role="tab" data-toggle="tab" class="tabDietetique">Conseil du jour</a>
+								</li>
 							</ul>
 
 							<!-- Tab panes -->
 							<div class="tab-content">
-								<div id="recette" role="tabpanel" class="tab-pane fade in active">
+								<div id="recette" role="tabpanel" class="tab-pane fade in active ">
 									<div class="row" id="dietTexteRecette">
 										<div class="col-xs-6">
 											<img class="img-responsive" src="img/muffins.jpg">
@@ -144,5 +148,7 @@
 						</ul>
 					</footer>
 		</div>
+
+		<script src="js/script.js"></script>
 	</body>
 	</html>

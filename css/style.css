@@ -66,7 +66,7 @@
 			font-size: 1.3em;
 		}
 	}
-	.nav a {
+	.nav a:not(.tabDietetique) {
 		color: white !important;
 		opacity: 1 !important;
 	}
@@ -195,10 +195,15 @@
 	#homeBlocNews {
 		background-color: white !important;
 		padding: auto;
+		padding-top: 10px;
 		overflow: auto;
 		text-align: center;
 	}
 
+	.activeLien{
+		color: yellow !important;
+		background-color: #af7653 !important;
+	}
 	/* dietetique - recette et conseil*/
 
 	.descriptifDietMagnet{
@@ -238,7 +243,6 @@
 		max-width: 100%;
 		height: auto;
 		display: block;
-		
 	}
 	#dietTexteRecette, #dietTexteConseil{
 		padding: 1em;
