@@ -592,28 +592,30 @@ p.button {
   width: 120px;
   height: 60px;
   margin: auto;
-  font-size: 1.2em;
+  font-size: 1.3em;
+  
 }
-.accueil_btn_top, .accueil_btn_top > a
+.acc_btn_top_txt, .acc_btn_bot_txt{ font-family: "titre"; font-size: 1.1em}
+.acc_btn_top_txt{margin-bottom: -30px;  color:#e7dcc6 ;}
+.acc_btn_bot_txt{margin-bottom: 30px;  color:#6e5342 ; }
+.accueil_btn_top
 {
-   border-radius: 60px 60px 0 0;
-   color: #FFF !important;
+   border-radius: 60px 60px 0 0; 
 }
-.accueil_btn_bottom, .accueil_btn_bottom > a
+.accueil_btn_bottom
 {
-  margin-top: -1px;
     border-radius: 0px 0px 60px  60px;
-    color: #000 !important;
 }
 .accueil_txt
 {
-
+  color:#6e5342 ;
   padding:40px 40px 80px 40px;
   margin-bottom:-60px;
   text-align: center;
 }
 .accueil_txt2
 {
+  color: #e7dcc6;
   margin-top: -60px;
   padding:80px 40px 40px 40px;
   text-align: center;
