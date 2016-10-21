@@ -1,9 +1,10 @@
-body
-{
- overflow-x:hidden;
-}
-
 /** Contact **/
+.contactBlocMap
+{
+  border-radius: 4px ; 
+  margin-top:5vh;
+  margin-bottom: 5vh;
+}
 #MapBrechere
 {
   height: 35vh;
@@ -18,34 +19,22 @@ body
   right:3vw;
   top: 3vh;
 }
+.text-align
+{
+  text-align:center;
+}
+.contactTxt , .contactTxt2
+{
+ font-size: 1.2em;
+}
 
-.contactTxt , .contactTxt2
-{
-   font-size: 1.2em;
-}
-@media (max-width: 767px)
-{
- 
-#contact_border
-{    
-   width: 50%;
-   height: 1px;
-   border-top: 1px solid black;
-   margin: auto;
-}
-.contactTxt , .contactTxt2
-{
-   text-align: center;
-}
-}
-@media (min-width: 768px)
-{
+
   .contactTxt
   {
     border-right:  1px solid black;
     height: 10vh;
   }
-}
+
 /** btn radio**/
 .radio {
   padding-left: 20px; }
