@@ -198,6 +198,7 @@
 		padding: auto;
 		padding-top: 10px;
 		overflow: auto;
+		text-align: center;
 	}
 	.activeLien{
 		color: yellow !important;
