@@ -18,6 +18,10 @@
 	p, a{
 		font-family: 'texte', sans-serif;
 	}
+
+	body {
+		overflow-x: hidden;
+	}
 	/* palette des couleurs */
 
 	.jaune{
@@ -124,6 +128,7 @@
 	#pg-dietetique {
 		background-image: url(../img/vegetables.jpg);
 		height: 300px;
+
 	}
 
 	#pg-atelier {
@@ -133,7 +138,8 @@
 
 	#pg-apropos {
 		background-image: url(../img/heron8.jpg);
-		height: 300px;
+		height: 340px;
+
 	}
 
 	#pg-contact {
@@ -262,10 +268,10 @@
 	/*apropos*/
 
 	.img-responsive1 {
-		width: 110%;
+		width: 90%;
 		padding-top: 30px;
-		padding-left: 55px;
-		float: left;
+		padding-left: 65px;
+		float: right;
 	}
 	.apropos {
 		background-color: #e7dcc6;
@@ -336,11 +342,12 @@
 	}
 
 	.partie-bio {
-		height: 450px;
+		height: 600px;
 		display: inline-block;
-		top: 60px;
-		padding-left: 80px;
+		top: 90px;
+		padding-left: 100px;
 		line-height: 25px;
+		overflow: auto;
 	}
 
 	.partie-bio h2 {
@@ -382,7 +389,7 @@
 		font-size: 24px;
 		height: 160px;
 		background-color: #6e5342;
-		width: 100%;
+		width: 110%;
 		text-align: center;
 		color: #333;
 		padding-top: 25px;
