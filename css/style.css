@@ -12,7 +12,7 @@
 	}
 
 	h1, h2, h3, h4{
-		font-family: 'titre', serif;
+		font-family: 'titre', serif;		
 	}
 
 	p, a{
@@ -22,8 +22,14 @@
 	body {
 		overflow-x: hidden;
 	}
+	.bold {
+		font-weight: bold;
+	}
+	.font {
+		font-size: 1.1em;
+	}
 	/* palette des couleurs */
-
+	
 	.jaune{
 		background-color: #FFF931 !important;
 	}
@@ -45,7 +51,10 @@
 		background-color: #e7dcc6 !important;
 		color: black;
 	}
-
+	.navbar-default .navbar-toggle .icon-bar
+	{
+		background-color: #FFF;
+	}
 	.navbar {
 		background-color: rgba(0, 0, 0, .4);
 		border: none;
