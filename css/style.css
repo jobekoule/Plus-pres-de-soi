@@ -70,7 +70,7 @@
 	}
 	.navbar-brand {
 		font-family:  'logo', cursive;
-		font-size: 3em;
+		font-size: 4em;
 		color: white !important;
 		opacity: 1 !important;
 	}
@@ -84,8 +84,10 @@
 		opacity: 1 !important;
 	}
 
-
-#homePhraseAccroche h1{
+#homePhraseAccroche{
+	padding-top: 150px;
+}
+#homePhraseAccroche h1{ 
 		font-family: 'logo', cursive;
 		font-weight: bold;
 		color: white;
