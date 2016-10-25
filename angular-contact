@@ -1,0 +1,5 @@
+ <div role="tabpanel" class="tab-pane fade in active" id="dustin"  ng-repeat="testimonial in testimonials">
+                        <p class="lead">{{testimonial.texte}}</p>
+                        <p class="text-uppercase"><strong>{{testimonial.author}}</strong></p>
+                      </div>
+                    </div>
